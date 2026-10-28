@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "accumulator_bug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "type": "debugpy",
+      "program": "${workspaceFolder}/accumulator_bug.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "accumulator_fixed",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "type": "debugpy",
+      "program": "${workspaceFolder}/accumulator_fixed.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "exceptions_demo",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "type": "debugpy",
+      "program": "${workspaceFolder}/exceptions_demo.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
